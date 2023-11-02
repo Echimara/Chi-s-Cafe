@@ -1,44 +1,46 @@
 
 // Name: Chimara Okeke
 // Notes to self:
-// Makue sure you put checks in your JSON files
+// Make sure you put checks in your JSON files
 // JSON is very meticulous about syntax errors
 const offeringsJsonString = `
 {
-    "items" :
-    [
+    
+    "items" : [
         {
-            "name" : "Vegetables Stir Fry",
-            "price" : 9.99,
+            "name" : "Jollof Rice",
+            "price" : 18.23,
             "isVegetarian" : true,
-            "spicinessScale" : 2,
-            "ingredients" : [ "bamboo shoots", "pea pods", "mushrooms", "carrots", "broccoli" ]
+            "spicinessScale" : 5,
+            "ingredients" : [ "red oil", "long grain rice", "onions", "tomatoes", "spices" ]
         },
 
         {
-            "name" : "Coffee Crusted Atlantic Salmon",
-            "price" : 18.99,
+            "name" : "Moussaka",
+            "price" : 10.49,
             "isVegetarian" : false,
             "spicinessScale" : 0,
-            "ingredients" : [ "coffee beans", "salmon", "maple syrup"]
+            "ingredients" : [ "eggplants", "potatoes", "lamb mince", "bay leaf"]
         },
 
         {
-            "name" : "Avocado Omlette",
-            "price" : 7.99,
+            "name" : "Pierogi",
+            "price" : 9.56,
             "isVegetarian" : true,
             "spicinessScale" : 0,
-            "ingredients" : [ "eggs", "butter", "avocados" ]
+            "ingredients" : [ "sour cream", "cheddar cheese", "eggs" ]
         },
 
         {
             "name" : "Spicy Tofu Burrito",
             "price" : 12.99,
             "isVegetarian" : true,
-            "spicinessScale" : 3,
+            "spicinessScale" : 4,
             "ingredients" : [ "flour tortillas", "tofu", "rice", "soy cheese", "chili peppers"]
         }
     ]
+
+
 }
 `
 // to handle invalid JSON gracefully, do the below things

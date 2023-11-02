@@ -9,12 +9,12 @@ a:visited {
 }
 
 a:hover {
-    color: red;
+    color: pink;
     text-decoration: underline;
 }
 
 h1 {
-    color: rgb(0, 132, 255);
+    color: linear-gradient(109.5deg, rgb(13, 11, 136) 9.4%, rgb(86, 255, 248) 78.4%);
     font-size: 2.2rem;
     padding-top: 2rem;
     text-align: center;

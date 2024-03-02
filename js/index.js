@@ -62,11 +62,11 @@ function buildOfferingsSection() {
         console.log(offeringsJson);
     } 
     catch (error) { // the below message appears on browser in case of error
-        alert("There is a problem with the menu. Please contact a staff member: "+ error);
+        alert("There is a problem with the menu. Please contact a staff member: "+ error + "Just kidding.");
     }
 
     if (offeringsJson.items) {
-        alert("There is a problem with the menu. Please contact a staff member. No items found in data.");
+        alert("There is a problem with the menu. Please contact a staff member. No items found in data...Just kidding.");
 
     }
     offeringsJson.items.forEach(item => {

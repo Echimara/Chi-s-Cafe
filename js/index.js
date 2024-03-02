@@ -66,7 +66,7 @@ function buildOfferingsSection() {
     }
 
     if (offeringsJson.items) {
-        alert("There is a problem with the menu. Please contact a staff member. No items found in data...Just kidding.");
+        alert("Welcome!");
 
     }
     offeringsJson.items.forEach(item => {
@@ -134,3 +134,19 @@ function getPdf() {
 }
 
 buildOfferingsSection();
+
+
+// background music
+
+// Get the audio element
+var audio = document.getElementById("backgroundMusic");
+
+// Function to play the audio
+function playMusic() {
+    audio.play();
+}
+
+// Function to pause the audio
+function pauseMusic() {
+    audio.pause();
+}
